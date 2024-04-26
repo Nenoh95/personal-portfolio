@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 700px;
+    align-items: center;
+  
+    
+}
+
+.container{
+    background: linear-gradient(to right, rgb(241, 241, 123), rgb(116, 173, 10));
+}
+#head{
+    text-align: center;
+    background-color: rgb(221, 216, 216);
+    margin: 15px;
+}
+
+#head p{
+   padding-bottom: 10px;
+}
+img{
+    border-radius: 50%;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+#bio{
+    background-color: rgb(226, 225, 225);
+    margin: 15px;
+    padding: 15px;
+}
+
+#work{
+    background-color: rgb(226, 225, 225);
+    margin: 15px;
+    padding: 15px;
+}
+
+#work .art{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+#bio #work{
+    background-color: #e9e9e9;
+}
+
+footer{
+    background-color: rgb(255, 72, 0);
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    font-size: 18px;
+    color: white;
+}
+
